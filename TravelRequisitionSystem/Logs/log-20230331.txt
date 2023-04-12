@@ -1,0 +1,386 @@
+2023-03-31 10:29:04 [INF] Application is starting
+2023-03-31 10:29:14 [INF] Now listening on: https://localhost:7200
+2023-03-31 10:29:14 [INF] Now listening on: http://localhost:5200
+2023-03-31 10:29:14 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 10:29:14 [INF] Hosting environment: Development
+2023-03-31 10:29:14 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 10:29:20 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger - -
+2023-03-31 10:29:21 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger - - - 301 0 - 631.3164ms
+2023-03-31 10:29:21 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 10:29:21 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 74.4159ms
+2023-03-31 10:29:21 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui.css - -
+2023-03-31 10:29:21 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui-bundle.js - -
+2023-03-31 10:29:21 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - -
+2023-03-31 10:29:21 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 10:29:21 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 1.8406ms
+2023-03-31 10:29:22 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-31 10:29:22 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-31 10:29:22 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui.css - - - 200 143632 text/css 1108.4123ms
+2023-03-31 10:29:22 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 1107.6859ms
+2023-03-31 10:29:22 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-31 10:29:22 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 1138.6649ms
+2023-03-31 10:29:23 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 10:29:23 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/favicon-32x32.png - -
+2023-03-31 10:29:23 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-31 10:29:23 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/favicon-32x32.png - - - 200 628 image/png 0.5931ms
+2023-03-31 10:29:23 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.3472ms
+2023-03-31 10:29:39 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel - -
+2023-03-31 10:29:39 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 10:29:39 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 10:29:45 [INF] Entity Framework Core 6.0.13 initialized 'TravelDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-03-31 10:29:48 [INF] Executed DbCommand (745ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TravelId], [t].[ChargeCode], [t].[DepartureDate], [t].[DestinationCountry], [t].[DestinationLocation], [t].[RequestDate], [t].[RequisitionStatus], [t].[RequisitonNumber], [t].[SourceCountry], [t].[SourceLocation], [t].[TravelClass], [t].[TravelerName], [t].[TripType]
+FROM [TravelRequests] AS [t]
+2023-03-31 10:29:48 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TravelRequisitionSystem.DTO.SearchRequestDTO, TravelRequisitionSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-31 10:29:48 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 8258.8134ms
+2023-03-31 10:29:48 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 10:29:48 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel - - - 200 - application/json;+charset=utf-8 8326.4262ms
+2023-03-31 10:34:31 [INF] Application is starting
+2023-03-31 10:34:33 [INF] Now listening on: https://localhost:7200
+2023-03-31 10:34:33 [INF] Now listening on: http://localhost:5200
+2023-03-31 10:34:33 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 10:34:33 [INF] Hosting environment: Development
+2023-03-31 10:34:33 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 10:34:35 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 10:34:35 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 393.6186ms
+2023-03-31 10:34:35 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 10:34:35 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 8.8517ms
+2023-03-31 10:34:36 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 10:34:36 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.2757ms
+2023-03-31 10:34:42 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel - -
+2023-03-31 10:34:42 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 10:34:42 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 10:34:46 [INF] Entity Framework Core 6.0.13 initialized 'TravelDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-03-31 10:34:47 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TravelId], [t].[ChargeCode], [t].[DepartureDate], [t].[DestinationCountry], [t].[DestinationLocation], [t].[RequestDate], [t].[RequisitionStatus], [t].[RequisitonNumber], [t].[SourceCountry], [t].[SourceLocation], [t].[TravelClass], [t].[TravelerName], [t].[TripType]
+FROM [TravelRequests] AS [t]
+2023-03-31 10:34:48 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TravelRequisitionSystem.DTO.SearchRequestDTO, TravelRequisitionSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-31 10:34:48 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 5280.6439ms
+2023-03-31 10:34:48 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 10:34:48 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel - - - 200 - application/json;+charset=utf-8 5332.4133ms
+2023-03-31 10:35:08 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=RC2Y1 - -
+2023-03-31 10:35:08 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 10:35:08 [INF] Route matched with {action = "GetRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRequestByRequisitionNumber(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 10:35:08 [INF] Entity Framework Core 6.0.13 initialized 'TravelDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-03-31 10:35:08 [INF] Executed DbCommand (81ms) [Parameters=[@__requisitionNumber_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TravelId], [t].[ChargeCode], [t].[DepartureDate], [t].[DestinationCountry], [t].[DestinationLocation], [t].[RequestDate], [t].[RequisitionStatus], [t].[RequisitonNumber], [t].[SourceCountry], [t].[SourceLocation], [t].[TravelClass], [t].[TravelerName], [t].[TripType]
+FROM [TravelRequests] AS [t]
+WHERE [t].[RequisitonNumber] = @__requisitionNumber_0
+2023-03-31 10:35:08 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.DTO.SearchRequestDTO'.
+2023-03-31 10:35:08 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem) in 355.5723ms
+2023-03-31 10:35:08 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 10:35:08 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=RC2Y1 - - - 200 - application/json;+charset=utf-8 373.3692ms
+2023-03-31 10:35:27 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=R%20%2B%20N2A8 - -
+2023-03-31 10:35:27 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 10:35:27 [INF] Route matched with {action = "GetRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRequestByRequisitionNumber(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 10:35:27 [INF] Entity Framework Core 6.0.13 initialized 'TravelDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-03-31 10:35:27 [INF] Executed DbCommand (2ms) [Parameters=[@__requisitionNumber_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TravelId], [t].[ChargeCode], [t].[DepartureDate], [t].[DestinationCountry], [t].[DestinationLocation], [t].[RequestDate], [t].[RequisitionStatus], [t].[RequisitonNumber], [t].[SourceCountry], [t].[SourceLocation], [t].[TravelClass], [t].[TravelerName], [t].[TripType]
+FROM [TravelRequests] AS [t]
+WHERE [t].[RequisitonNumber] = @__requisitionNumber_0
+2023-03-31 10:35:27 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.DTO.SearchRequestDTO'.
+2023-03-31 10:35:27 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem) in 68.7679ms
+2023-03-31 10:35:27 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 10:35:27 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=R%20%2B%20N2A8 - - - 200 - application/json;+charset=utf-8 84.5939ms
+2023-03-31 11:15:42 [INF] Application is starting
+2023-03-31 11:15:58 [INF] Now listening on: https://localhost:7200
+2023-03-31 11:15:58 [INF] Now listening on: http://localhost:5200
+2023-03-31 11:15:58 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 11:15:58 [INF] Hosting environment: Development
+2023-03-31 11:15:58 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 11:16:02 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 11:16:06 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 3536.7664ms
+2023-03-31 11:16:06 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 11:16:06 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 92.3838ms
+2023-03-31 11:16:06 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 11:16:07 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 683.0508ms
+2023-03-31 11:16:58 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel - -
+2023-03-31 11:16:58 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 11:16:58 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 11:17:03 [INF] Entity Framework Core 6.0.13 initialized 'TravelDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-03-31 11:17:06 [INF] Executed DbCommand (166ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TravelId], [t].[ChargeCode], [t].[DepartureDate], [t].[DestinationCountry], [t].[DestinationLocation], [t].[RequestDate], [t].[RequisitionStatus], [t].[RequisitonNumber], [t].[SourceCountry], [t].[SourceLocation], [t].[TravelClass], [t].[TravelerName], [t].[TripType]
+FROM [TravelRequests] AS [t]
+2023-03-31 11:17:06 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TravelRequisitionSystem.DTO.SearchRequestDTO, TravelRequisitionSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-31 11:17:06 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 8314.934ms
+2023-03-31 11:17:06 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 11:17:06 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel - - - 200 - application/json;+charset=utf-8 8424.6465ms
+2023-03-31 12:23:24 [INF] Application is starting
+2023-03-31 12:23:48 [INF] Now listening on: https://localhost:7200
+2023-03-31 12:23:48 [INF] Now listening on: http://localhost:5200
+2023-03-31 12:23:48 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 12:23:48 [INF] Hosting environment: Development
+2023-03-31 12:23:48 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 12:24:16 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 12:24:19 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 3053.3420ms
+2023-03-31 12:24:19 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 12:24:19 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 188.1263ms
+2023-03-31 12:24:20 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 12:24:21 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1597.7043ms
+2023-03-31 12:27:18 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel - -
+2023-03-31 12:27:18 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 12:27:18 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 12:27:25 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 6648.8115ms
+2023-03-31 12:27:25 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 12:27:25 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> SearchRequestDTO
+System.Collections.Generic.List`1[[TravelRequisitionSystem.Data.TravelRequest, TravelRequisitionSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> TravelRequisitionSystem.DTO.SearchRequestDTO
+   at lambda_method12(Closure , Object , SearchRequestDTO , ResolutionContext )
+   at TravelRequisitionSystem.Services.Services.RequisitionService.GetAllRequests() in C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\Services\Services\RequisitionService.cs:line 60
+   at TravelRequisitionSystem.Controllers.TravelController.GetAllRequests() in C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\Controllers\TravelController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-31 12:27:25 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel - - - 500 - text/plain;+charset=utf-8 7410.4440ms
+2023-03-31 12:28:23 [INF] Application is starting
+2023-03-31 12:28:24 [INF] Now listening on: https://localhost:7200
+2023-03-31 12:28:24 [INF] Now listening on: http://localhost:5200
+2023-03-31 12:28:24 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 12:28:24 [INF] Hosting environment: Development
+2023-03-31 12:28:24 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 12:28:28 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 12:28:28 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 313.3410ms
+2023-03-31 12:28:28 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 12:28:28 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 2.4317ms
+2023-03-31 12:28:28 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 12:28:28 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.2571ms
+2023-03-31 12:28:50 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel - -
+2023-03-31 12:28:50 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 12:28:50 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 12:28:54 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 12:28:54 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 4298.9628ms
+2023-03-31 12:28:54 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 12:28:54 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel - - - 200 - application/json;+charset=utf-8 4355.1662ms
+2023-03-31 12:55:43 [INF] Application is starting
+2023-03-31 12:56:00 [INF] Now listening on: https://localhost:7200
+2023-03-31 12:56:00 [INF] Now listening on: http://localhost:5200
+2023-03-31 12:56:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 12:56:00 [INF] Hosting environment: Development
+2023-03-31 12:56:00 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 12:56:10 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 12:56:12 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 1850.5080ms
+2023-03-31 12:56:12 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 12:56:12 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 24.8356ms
+2023-03-31 12:56:13 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 12:56:13 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 694.1505ms
+2023-03-31 13:03:13 [INF] Request starting HTTP/2 POST https://localhost:7200/api/Travel application/json 250
+2023-03-31 13:03:13 [INF] CORS policy execution successful.
+2023-03-31 13:03:13 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.SubmitTravelRequest (TravelRequisitionSystem)'
+2023-03-31 13:03:13 [INF] Route matched with {action = "SubmitTravelRequest", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitTravelRequest(TravelRequisitionSystem.DTO.CreateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:03:30 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:03:31 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.SubmitTravelRequest (TravelRequisitionSystem) in 17466.946ms
+2023-03-31 13:03:31 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.SubmitTravelRequest (TravelRequisitionSystem)'
+2023-03-31 13:03:31 [INF] Request finished HTTP/2 POST https://localhost:7200/api/Travel application/json 250 - 200 - application/json;+charset=utf-8 17699.6437ms
+2023-03-31 13:03:54 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=RO1S2 - -
+2023-03-31 13:03:54 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:03:54 [INF] Route matched with {action = "GetRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRequestByRequisitionNumber(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:03:54 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:03:54 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem) in 250.3928ms
+2023-03-31 13:03:54 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:03:54 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=RO1S2 - - - 200 - application/json;+charset=utf-8 256.7531ms
+2023-03-31 13:23:10 [INF] Application is starting
+2023-03-31 13:23:13 [INF] Now listening on: https://localhost:7200
+2023-03-31 13:23:13 [INF] Now listening on: http://localhost:5200
+2023-03-31 13:23:13 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 13:23:13 [INF] Hosting environment: Development
+2023-03-31 13:23:13 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 13:23:14 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 13:23:15 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 266.0851ms
+2023-03-31 13:23:15 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 13:23:15 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 3.6770ms
+2023-03-31 13:23:15 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 13:23:15 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.6175ms
+2023-03-31 13:24:06 [INF] Application is starting
+2023-03-31 13:24:09 [INF] Now listening on: https://localhost:7200
+2023-03-31 13:24:09 [INF] Now listening on: http://localhost:5200
+2023-03-31 13:24:09 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 13:24:09 [INF] Hosting environment: Development
+2023-03-31 13:24:09 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 13:24:10 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 13:24:10 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 237.6582ms
+2023-03-31 13:24:10 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 13:24:10 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.2733ms
+2023-03-31 13:24:11 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 13:24:11 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.7771ms
+2023-03-31 13:24:25 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - -
+2023-03-31 13:24:25 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 13:24:25 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:24:28 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:24:28 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 3053.5903ms
+2023-03-31 13:24:28 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 13:24:28 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - - - 200 - application/json;+charset=utf-8 3100.1538ms
+2023-03-31 13:44:23 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 246
+2023-03-31 13:44:23 [INF] CORS policy execution successful.
+2023-03-31 13:44:23 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:44:23 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:45:08 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:45:10 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem) in 46529.1321ms
+2023-03-31 13:45:10 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:45:10 [INF] Request finished HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 246 - 200 - application/json;+charset=utf-8 46553.1722ms
+2023-03-31 13:46:10 [INF] Application is starting
+2023-03-31 13:46:12 [INF] Now listening on: https://localhost:7200
+2023-03-31 13:46:12 [INF] Now listening on: http://localhost:5200
+2023-03-31 13:46:12 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 13:46:12 [INF] Hosting environment: Development
+2023-03-31 13:46:12 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 13:46:33 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 13:46:33 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 228.0081ms
+2023-03-31 13:46:33 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 13:46:33 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 3.0084ms
+2023-03-31 13:46:33 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 13:46:33 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.6896ms
+2023-03-31 13:48:06 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 256
+2023-03-31 13:48:06 [INF] CORS policy execution successful.
+2023-03-31 13:48:06 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:48:06 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:51:33 [INF] Application is starting
+2023-03-31 13:51:37 [INF] Now listening on: https://localhost:7200
+2023-03-31 13:51:37 [INF] Now listening on: http://localhost:5200
+2023-03-31 13:51:37 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 13:51:37 [INF] Hosting environment: Development
+2023-03-31 13:51:37 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 13:51:38 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 13:51:38 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 320.7465ms
+2023-03-31 13:51:38 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 13:51:38 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 16.5675ms
+2023-03-31 13:51:39 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 13:51:39 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.4747ms
+2023-03-31 13:52:26 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - -
+2023-03-31 13:52:26 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 13:52:26 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:52:29 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:52:29 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 2923.7162ms
+2023-03-31 13:52:29 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 13:52:29 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - - - 200 - application/json;+charset=utf-8 2964.3739ms
+2023-03-31 13:53:30 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 245
+2023-03-31 13:53:30 [INF] CORS policy execution successful.
+2023-03-31 13:53:30 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:53:30 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:54:01 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:54:01 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem) in 31556.3331ms
+2023-03-31 13:54:01 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:54:01 [INF] Request finished HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 245 - 200 - application/json;+charset=utf-8 31586.0801ms
+2023-03-31 13:58:02 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=R%20%2B%20N2A8 - -
+2023-03-31 13:58:02 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:58:02 [INF] Route matched with {action = "GetRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRequestByRequisitionNumber(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 13:58:02 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 13:58:02 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem) in 42.4916ms
+2023-03-31 13:58:02 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 13:58:02 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/SearchRequest?requisitionNumber=R%20%2B%20N2A8 - - - 200 - application/json;+charset=utf-8 84.1358ms
+2023-03-31 14:22:27 [INF] Application is starting
+2023-03-31 14:22:35 [INF] Now listening on: https://localhost:7200
+2023-03-31 14:22:35 [INF] Now listening on: http://localhost:5200
+2023-03-31 14:22:35 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 14:22:35 [INF] Hosting environment: Development
+2023-03-31 14:22:35 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 14:22:38 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 14:22:39 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 647.6136ms
+2023-03-31 14:22:39 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 14:22:39 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 2.5185ms
+2023-03-31 14:22:40 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 14:22:40 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.9351ms
+2023-03-31 14:22:54 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=jghugugu application/json 242
+2023-03-31 14:22:55 [INF] CORS policy execution successful.
+2023-03-31 14:22:55 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:22:55 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:23:22 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 14:23:24 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem) in 29148.0955ms
+2023-03-31 14:23:24 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:23:24 [INF] Request finished HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=jghugugu application/json 242 - 200 - application/json;+charset=utf-8 29943.1335ms
+2023-03-31 14:26:02 [INF] Application is starting
+2023-03-31 14:26:04 [INF] Now listening on: https://localhost:7200
+2023-03-31 14:26:04 [INF] Now listening on: http://localhost:5200
+2023-03-31 14:26:04 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 14:26:04 [INF] Hosting environment: Development
+2023-03-31 14:26:04 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 14:26:07 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 14:26:07 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 173.9868ms
+2023-03-31 14:26:07 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 14:26:07 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 2.5615ms
+2023-03-31 14:26:07 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 14:26:07 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.7540ms
+2023-03-31 14:26:27 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 242
+2023-03-31 14:26:27 [INF] CORS policy execution successful.
+2023-03-31 14:26:27 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:26:27 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:26:32 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 14:26:32 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem) in 5081.8182ms
+2023-03-31 14:26:32 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:26:32 [INF] Request finished HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 242 - 200 - application/json;+charset=utf-8 5145.5754ms
+2023-03-31 14:28:17 [INF] Application is starting
+2023-03-31 14:28:19 [INF] Now listening on: https://localhost:7200
+2023-03-31 14:28:19 [INF] Now listening on: http://localhost:5200
+2023-03-31 14:28:19 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 14:28:19 [INF] Hosting environment: Development
+2023-03-31 14:28:19 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 14:28:20 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 14:28:20 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 243.1719ms
+2023-03-31 14:28:21 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 14:28:21 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.4223ms
+2023-03-31 14:28:21 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 14:28:21 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.4485ms
+2023-03-31 14:28:32 [INF] Request starting HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 242
+2023-03-31 14:28:32 [INF] CORS policy execution successful.
+2023-03-31 14:28:32 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:28:32 [INF] Route matched with {action = "UpdateRequestByRequisitionNumber", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRequestByRequisitionNumber(System.String, TravelRequisitionSystem.DTO.UpdateRequestDTO) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:28:36 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 14:28:36 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem) in 4324.9661ms
+2023-03-31 14:28:36 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.UpdateRequestByRequisitionNumber (TravelRequisitionSystem)'
+2023-03-31 14:28:36 [INF] Request finished HTTP/2 PUT https://localhost:7200/api/Travel/UpdateRequest?requisitionNumber=RC2Y1 application/json 242 - 200 - application/json;+charset=utf-8 4386.2892ms
+2023-03-31 14:39:39 [INF] Application is starting
+2023-03-31 14:39:46 [INF] Now listening on: https://localhost:7200
+2023-03-31 14:39:46 [INF] Now listening on: http://localhost:5200
+2023-03-31 14:39:46 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 14:39:46 [INF] Hosting environment: Development
+2023-03-31 14:39:46 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 14:39:52 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 14:39:54 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 2082.0427ms
+2023-03-31 14:39:54 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 14:39:54 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 10.3216ms
+2023-03-31 14:39:54 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 14:39:54 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 367.9284ms
+2023-03-31 14:40:49 [INF] Request starting HTTP/2 DELETE https://localhost:7200/api/Travel/DeleteRequest?requisitionNumber=R%20%2B%20N2A8 - -
+2023-03-31 14:40:49 [INF] CORS policy execution successful.
+2023-03-31 14:40:50 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.DeleteRequest (TravelRequisitionSystem)'
+2023-03-31 14:40:50 [INF] Route matched with {action = "DeleteRequest", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteRequest(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:41:59 [INF] Application is starting
+2023-03-31 14:42:02 [INF] Now listening on: https://localhost:7200
+2023-03-31 14:42:02 [INF] Now listening on: http://localhost:5200
+2023-03-31 14:42:02 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-31 14:42:02 [INF] Hosting environment: Development
+2023-03-31 14:42:02 [INF] Content root path: C:\Users\chidinma.ejike\Documents\Chidinma Folder\TravelRequisitionSystem\TravelRequisitionSystem\
+2023-03-31 14:42:05 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-03-31 14:42:06 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 306.3858ms
+2023-03-31 14:42:06 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-03-31 14:42:06 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 2.6184ms
+2023-03-31 14:42:06 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-31 14:42:06 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.9704ms
+2023-03-31 14:42:15 [INF] Request starting HTTP/2 DELETE https://localhost:7200/api/Travel/DeleteRequest?requisitionNumber=R%20%2B%20N2A8 - -
+2023-03-31 14:42:15 [INF] CORS policy execution successful.
+2023-03-31 14:42:15 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.DeleteRequest (TravelRequisitionSystem)'
+2023-03-31 14:42:15 [INF] Route matched with {action = "DeleteRequest", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteRequest(System.String) on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:43:04 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 14:43:04 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.DeleteRequest (TravelRequisitionSystem) in 49355.4901ms
+2023-03-31 14:43:04 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.DeleteRequest (TravelRequisitionSystem)'
+2023-03-31 14:43:04 [INF] Request finished HTTP/2 DELETE https://localhost:7200/api/Travel/DeleteRequest?requisitionNumber=R%20%2B%20N2A8 - - - 200 - application/json;+charset=utf-8 49419.7376ms
+2023-03-31 14:44:55 [INF] Request starting HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - -
+2023-03-31 14:44:55 [INF] Executing endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 14:44:55 [INF] Route matched with {action = "GetAllRequests", controller = "Travel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller TravelRequisitionSystem.Controllers.TravelController (TravelRequisitionSystem).
+2023-03-31 14:44:59 [INF] Executing OkObjectResult, writing value of type 'TravelRequisitionSystem.Models.Response'.
+2023-03-31 14:44:59 [INF] Executed action TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem) in 3560.1269ms
+2023-03-31 14:44:59 [INF] Executed endpoint 'TravelRequisitionSystem.Controllers.TravelController.GetAllRequests (TravelRequisitionSystem)'
+2023-03-31 14:44:59 [INF] Request finished HTTP/2 GET https://localhost:7200/api/Travel/GetAllRequests - - - 200 - application/json;+charset=utf-8 3568.9370ms
